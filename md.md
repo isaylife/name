@@ -36,5 +36,7 @@ curl https://get.acme.sh | sh; apt install socat -y || yum install socat -y; ~/.
 
 指令：
 端口放行指令
+```
 iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+```
 修改443为自己的端口就行
